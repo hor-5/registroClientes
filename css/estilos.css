@@ -1,0 +1,286 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+}
+.nav-link{
+    color: #4b4b4b !important;
+    width: 250px;
+    font-size: 20px;
+    
+    }
+    .nav-link:hover{
+        color: cornflowerblue !important;
+        transition: 0.6s;
+    }
+  .navbar-collapse{
+      transition: 1s;
+  }
+    .nav-item{
+        text-align: center;
+        font-weight: 400;
+    }
+    .active{
+        text-decoration: underline;
+        
+    }
+   .navbar{
+       padding: 0 12% ;
+       margin-top: 12px;
+      
+   }
+   
+  
+   .contacto h1 , .contacto p{
+    font-weight: 700;
+    padding: 10px;
+
+   }
+   .contacto h1{
+       font-size: 55px;
+       margin: 60px 0px 20px;
+          }
+
+   .contacto p{
+       font-size: 30px;
+       line-height: 40px; /* para el interlineado */ 
+       margin: 0px 0px 60px; 
+   } 
+   
+
+   .contacto .form-control {
+    background-color: #eeeeee;
+    border: 0px;
+    border-bottom: 1px solid #4b4b4b;
+    border-radius: 0px;
+   }
+   .contacto .btn{
+       background-color :black;
+       border-radius: 4px;
+       border-color: #4b4b4b;
+       width: 130px;
+       height: 30px;  
+       padding:1px;
+       font-size: 15px;
+       font-weight: 500;
+       transition: 0.8s;
+   }
+   .contacto .btn:hover{
+    border: 2px silver;
+    color: rgb(221, 219, 219);    
+    box-shadow: 3px 3px 3px grey;
+    background-color: rgba(68, 73, 78, 0.931);
+   }
+    .footer-desktop i {
+    font-size: 30px;
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 15px;
+    color: black !important;
+    transition: 0.6s;
+    text-decoration: none !important;
+}
+    footer i:hover{
+        color: cornflowerblue !important; 
+        text-decoration: none !important;
+        
+    }
+    .footer-desktop{
+       background-color: white;
+       padding: 70px;
+       margin: 60px 0px 0px 0px;
+    }
+    .footer-mobile{
+        background-color:white;
+    }
+    .footer-mobile i {
+        font-size: 30px;
+        color: black;
+    }
+  .depcsuite{
+      color: black !important;
+      font-weight: bolder;
+  }
+
+ @media (max-width:765px) {
+      .contacto h1{
+          font-size: 40px;
+          
+      }
+      .contacto p{
+          font-size: 20px;
+        
+          line-height: 30px;
+      }
+      
+       .footer-desktop{
+        display: none;
+    }  
+    .footer-mobile1 {
+        background-color: #eeeeee;
+    }
+
+
+  }
+  @media (min-width:765px) {
+    .footer-mobile{
+        display: none;
+    }
+    .footer-mobile1 {
+        display: none;
+    }
+} 
+  .proyectos h1 {
+    font-weight: 700;
+    
+   }
+  .proyectos h1{
+    font-size: 55px;
+    margin: 60px 0px 20px;
+       }
+
+.proyectos h2{
+    font-size: 25px;
+    line-height: 40px; /* para el interlineado */ 
+    margin: 0px 0px 60px; 
+} 
+
+.proyectos img{
+    width: 100%;
+    height: 260px;
+
+}
+.proyectos .btn{
+    background-color: black;
+    transition: 0.8s;
+  
+}
+.proyectos .btn:hover{
+    border: 2px silver;
+    color: rgb(221, 219, 219);    
+    box-shadow: 3px 3px 3px grey;
+    background-color: rgba(68, 73, 78, 0.931);
+}
+ .home h1 {
+    font-weight: 700;
+    padding: 10px;
+    font-size: 55px;
+    margin: 60px 0px 20px;
+
+   }
+   
+   .home h2{
+       font-size: 22px;
+          }
+  .home .btn{
+      background-color: black;
+      transition: 0.8s;
+    
+  }
+  .home .btn:hover{
+    border: 2px silver;
+    color: rgb(221, 219, 219);    
+    box-shadow: 3px 3px 3px grey;
+    background-color: rgba(68, 73, 78, 0.931);
+}
+.fondo {
+    background-image: url(../images/Fondos-01.png);
+    background-repeat: repeat;
+    background-size: 100%;
+
+    
+}
+.homefooter {
+  margin: 180px 0px 0px 0px;
+}
+
+.sobre-mi h1 {
+    font-weight: 700;
+    
+   }
+  .sobre-mi h1{
+    font-size: 55px;
+    margin: 60px 0px 20px;
+       }
+
+.sobre-mi h2{
+    font-size: 25px;
+    line-height: 40px; /* para el interlineado */ 
+    margin: 0px 0px 60px; 
+} 
+.sobre-mi{
+    background-image: url(../images/Fondos-05.png);
+    background-size: cover;
+    padding: 0 0 50px;
+}
+.sobre-mi .btn{
+    width: 250px;
+    height: 50px;
+    font-size: 25px;
+    padding: 2px;
+    text-transform: uppercase;
+    background-color: black;
+    transition: 0.8s;
+}
+.sobre-mi .btn:hover{
+    border: 2px silver;
+
+    color: rgb(221, 219, 219);    
+    box-shadow: 3px 3px 3px grey;
+    background-color: rgba(68, 73, 78, 0.931);
+    
+    
+}
+
+
+
+.sobreMiCards{
+    padding: 100px 0 0 0;
+}
+
+.card-1, .card-2, .card-3, .card-4 {
+
+padding: 30px;
+border-radius: 10px;
+}
+
+.card-1 h2, .card-2 h2, .card-3 h2, .card-4 h2 {
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+
+.card-1 p, .card-2 p, .card-3 p, .card-4 p {
+    font-size: 20px;
+    font-weight: 300;
+    color:rgba(160, 157, 157, 0.904);
+    
+}
+
+.icons{
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+.experienciaLaboral{
+background-color: #4b4b4b;
+background-size: cover;
+color: whitesmoke;
+
+}
+.experienciaLaboral .titulo{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.experienciaLaboral span{
+    font-size: 16px;
+    color: silver;
+}
+.ParteDos{
+    border-top: silver !important;
+}

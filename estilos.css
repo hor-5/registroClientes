@@ -1,0 +1,54 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Roboto', sans-serif;
+}
+.multi-collapse
+{
+    transition: 1s;
+}
+h1{
+    transition: 2s;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+form .form-control{
+    background-color: whitesmoke;
+    border: 0px;
+    border-bottom: 1px solid #4b4b4b;
+    box-shadow: 5px 5px 3px #aaaaaa;
+    border-radius: 0px;
+    transition: 1s;
+   }
+   form .form-control:focus{
+       background-color:whitesmoke;       
+       width:480px;
+       height: 35px;
+   }
+   .card{
+       background-color: whitesmoke;
+   }
+
+.cerrar{
+    cursor: pointer;
+     transition: 0.3s;
+    font-size: 25px;
+}
+.cerrar:hover{
+    color: rgb(43, 56, 82);
+    font-size: 28px;
+    cursor: pointer;    
+}
+.btn{
+    text-decoration: none!important;
+    color: white !important;
+}
+li{
+    list-style: none;
+}
+.alert{
+    transition: 1s;
+}
+.thIconos{
+    width: 150px !important;
+}
